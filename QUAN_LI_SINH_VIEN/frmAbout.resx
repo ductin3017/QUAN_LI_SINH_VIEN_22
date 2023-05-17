@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Hướng dẫn:
+* Quản lý sinh viên gồm có
+- Thông tin:
++ Cập nhật: bấm cập nhật để cập nhật danh sách sinh viên mới nhất (hoặc bấm nút thông tin ở MenuStrip hoặc dùng phím tắt Shift + A)
++ Tìm: bấm vào ở textbox kế bên nút tìm kiếm sau đó nhập: mã học sinh hoặc họ tên học sinh hoặc điểm trung bình hoặc mã lớp mà sinh viên muốn tìm sau đó bấm tìm 
+(hoặc bấm nút tìm ở MenuStrip hoặc dùng phím tắt Ctrl + F)
++ Thoát: bấm vào nút thoát để thoát chương trình (hoặc bấm nút thoát ở MenuStrip hoặc dùng phím tắt Alt + F4)
+- Những thao tác cơ bản như: thêm, xoá, sửa, khởi tạo sinh viên
++ Thêm: bấm vào groupbox thông tin chi tiết sau đó lần lượt thêm Mã học sinh, họ và tên, ngày sinh, địa chỉ, điểm trung bình (DTB)
+, mã lớp và phái sau đó bấm nút thêm (hoặc bấm nút thêm ở MenuStrip hoặc dùng phím tắt Ctrl + A)
++ Xoá: bấm vào datagridview có hiện danh sách sinh viên sau đó bấm vào tên sinh viên muốn xoá và bấm xoá
+ (hoặc bấm nút xoá ở MenuStrip hoặc dùng phím tắt Crtl + Del)
++ Sửa: bấm vào datagridview có hiện danh sách sinh viên sau đó bấm vào tên sinh viên muốn sửa và nhập vào thông tin muốn sửa ở thông tin chi tiết và bấm nút sửa 
+(hoặc bấm nút sửa ở MenuStrip hoặc dùng phím tắt Ctrl + E)
++ Khởi tạo: bấm vào nút khởi tạo thì trong thông tin chi tiết sẽ để trống để mình có thể nhập vào
+- Ngoài ra còn có các thao tác khác như:
++ Sắp xếp họ hoặc tên từ A -&gt; Z (hoặc bấm nút sort A -&gt; Z ở trên MenuStrip)
++ Sắp xếp họ hoặc tên từ Z -&gt; A (hoặc bấm nút sort Z -&gt; A ở trên MenuStrip)
++ Sắp xếp theo lớp (hoặc bấm nút sort class ở trên MenuStrip)
++ Lấy ra những sinh viên qua môn (hoặc bấm nút qua môn ở trên MenuStrip)
++ Lấy ra những sinh viên rớt môn (hoặc bấm nút rớt môn ở trên MenuStrip)
++ Lấy ra những sinh viên có điểm trung bình không hợp lệ (hoặc bấm không hợp lệ ở trên MenuStrip)
+- Sau khi chỉnh sửa xong thì bấm xuất file report (hoặc bấm in ấn ở trên MenuStrip)</value>
+  </data>
+</root>
